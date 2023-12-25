@@ -77,9 +77,9 @@ export default function Header() {
       <Styled.Menu className="menu">
         <ul>
           <li>
-            <a href="#">
+            <Link href="/shopping-cart">
               <ShoppingCart size={24} />
-            </a>
+            </Link>
           </li>
           <li>
             <Link href="/favorite">

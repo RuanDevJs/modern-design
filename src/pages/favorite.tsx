@@ -7,6 +7,7 @@ import Stripe from "stripe";
 import * as Styled from "@/styles/favorite";
 import { Heart } from "phosphor-react";
 import Head from "next/head";
+import Link from "next/link";
 
 interface Product {
   id: string;
@@ -35,18 +36,20 @@ export default function Favorite({ products }: Props) {
           {products.map((product, index) => {
             return (
               <div className="product" key={product.id}>
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  width={250}
-                  height={150}
-                  draggable={false}
-                />
-                <h2>{product.name}</h2>
-                <p>{product.description}</p>
-                <div className="icon">
-                  <Heart weight="fill" size={22} />
-                </div>
+                <Link href={`/product/${product.id}`}>
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    width={250}
+                    height={150}
+                    draggable={false}
+                  />
+                  <h2>{product.name}</h2>
+                  <p>{product.description}</p>
+                  <div className="icon">
+                    <Heart weight="fill" size={22} />
+                  </div>
+                </Link>
               </div>
             );
           })}

@@ -506,6 +506,16 @@ export const ContactForm = styled("div", {
     flexDirection: "column",
   },
 
+  ".label input:focus": {
+    transition: "ease-in-out .22s",
+    borderBottom: "$cranberry 0.2px solid",
+  },
+
+  ".label textarea:focus": {
+    transition: "ease-in-out .22s",
+    border: "$cranberry 0.2px solid",
+  },
+
   ".label > label": {
     fontWeight: "500",
     color: "$salt_box",
@@ -524,10 +534,8 @@ export const ContactForm = styled("div", {
 
   ".label > textarea": {
     width: "620px",
-    // maxWidth: "620px",
 
     height: "320px",
-    // maxHeight: "320px",
 
     resize: "none",
 

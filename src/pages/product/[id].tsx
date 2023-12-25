@@ -47,11 +47,13 @@ export default function Product({ product }: IProduct) {
       <Styled.Container className="container">
         <div className="product-image">
           <Image
-            src={Coach}
+            src={product.image}
             alt={product.name}
-            title={product.name}
+            title={product.description}
             draggable={false}
             objectFit="cover"
+            width={320}
+            height={320}
           />
         </div>
         <div className="product-details">

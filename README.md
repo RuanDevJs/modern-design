@@ -15,12 +15,11 @@ https://github.com/RuanDevJs/modern-design/assets/82915279/0bc326ae-f961-472f-97
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <h3> Overview 🚀 </h3>
 <p>
-<i>This project is a modern web application built using React.js, TypeScript, and Styled Components. It serves as a platform for me to enhance my front-end development skills, particularly in React.js, TypeScript, and Styled Components, as well as in designing responsive, aesthetically pleasing UI components.</i>
+<i>This project is a modern web application built using React.js, TypeScript, and Styled Components. It serves as a platform for me to enhance my front-end development skills, particularly in React.js, TypeScript, and Stitches, as well as in designing responsive, aesthetically pleasing UI components.</i>
 </p>
 
 <h3>Purpose</h3>
@@ -33,7 +32,7 @@ https://github.com/RuanDevJs/modern-design/assets/82915279/0bc326ae-f961-472f-97
     Leveraging <strong>TypeScript</strong> for enhanced code reliability
   </li>
   <li>
-    Creating dynamic and stylish UIs using <strong>Styled Components</strong>
+    Creating dynamic and stylish UIs using <strong>Stitches</strong>
   </li>
 </ul>
 
